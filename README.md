@@ -9,3 +9,9 @@
 - When we run docker image, we will get **Docker Containers**. So docker containers are the run time instances of docker image and these images can also be stored in an online cloud repositories which is **Docker Hub**
 - In **Docker Hub** , there are many publicly available images and you can store your own docker images as well. 
 - This image can be pulled to any environment like staging environment or test environment.
+-
+
+## Client-Server Architecture of Docker
+![Image](https://github.com/reban87/Docker/blob/main/Docker%20architecture.jpg)
+- The **daemon (server)** receives the commands from the Docker client through CLI or REST API's
+- Docker client and daemon can be present on the same host (machine) or different hosts 
