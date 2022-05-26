@@ -1,4 +1,4 @@
-###🗒️**Docker Commands**
+### 🗒️**Docker Commands**
 
 ## 👉️**Basic Commands**
 - ```docker version``` : To check client and server version
@@ -9,7 +9,7 @@
 - ``` docker login``` : Login to [Docker Hub](hub.docker.com) from the terminal
 
 
-## 👉️** Commands related to images
+## 👉️ **Commands related to images**
 - ```docker pull``` : It is used to pull images from dockerhub. (eg. ```docker pull ubuntu```)
 - ```docker images --help``` : shows options for differnt flags
 - ```docker images``` : To see list of images
@@ -17,7 +17,7 @@
 - ``` docker images -a``` : -a gives the all details of the image
 - ```docker rmi --help```: It shows option to delete the images. (e.g ```docker rmi 113a43faa138``` : deleted image of that id)
 
-## 👉️**To run containers
+## 👉️**To run containers**
 - ```docker run --help``` : Shows different flags for docker run
 
 ## 👉️**Commands on Docker Containers**
