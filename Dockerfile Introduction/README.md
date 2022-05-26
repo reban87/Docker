@@ -2,12 +2,12 @@
  - A text file with instructions to build image
  - Automation of Docker image for image creation
  
- ### **Basic Instruction used in Docker files**
+ ## **Basic Instruction used in Docker files**
  - FROM
  - RUN
  - CMD
  
- ### **Steps**
+ ## **Steps**
   1. Create a file named Dockerfile ( 👇️It is in your Terminal)
   	 **Procedure**:
   	- ```mkdir DockerFiles``` : Create a folder
@@ -47,12 +47,11 @@
        - ```docker run image_id```
        
        
- ### 🔗️ ***Useful Links: 
+ ## 🔗️ ***Useful Links: 
  	- [DockerFile](https://github.com/wsargent/docker-cheat-sheet#dockerfile)
  	- [Documentation](https://docs.docker.com/engine/reference/builder/)
  	    
  	    
- 	    - reduce number of workers to 1
- 	    
+ 	     	    
  				  
  	
