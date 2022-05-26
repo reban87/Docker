@@ -7,7 +7,7 @@
 ## Where are Images stored?
 Images are stored in Registries (e.g. docker hub)
 
-## Commands that can be used with Images
+##  Commands that can be used with Images
 
  Let us pull ```ubuntu version 18.04 ``` image from the docker hub
 -  ```docker pull ubuntu:18.04```
@@ -18,15 +18,15 @@ Images are stored in Registries (e.g. docker hub)
 
 - ```docker images -q``` : gives only image ids
 
-- ```docker images -f``` : -f is used to apply filters (e.g ```docker images -f "dagling=false"```
+- ```docker images -f``` : -f is used to apply filters (e.g ```docker images -f "dagling=false"```)
 
-- **dangling images** are the images which are associated with container or running container
+📝 **dangling images** are the images which are associated with container or running container
  
  - ```dagling=false``` means images are not associated with containers
  - ```dagling=true``` means images are associated with containers
 
 
-## Create a container from an image
+## 💿 Create a container from an image
 
 - ```docker run --name myFirstContainer -it ubuntu bash``` **Comments** ```myFirstContainer```:Container Name , ```-it``` : interactive mode, ```ubuntu```: image
 
