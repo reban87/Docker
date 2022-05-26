@@ -30,7 +30,7 @@
 ## 👉️**System Commands**
 - ```docker stats``` : It shows stats like running memory usage. network input/output
 - ```docker system df``` :  :Details on disc like images/caches
-- ```docker system prune --help```: gives flags to remove stopped container networks that are not being used: **SENSITIVE COMMAND TO USE***
+- ```docker system prune --help```: gives flags to remove stopped container networks that are not being used: **SENSITIVE COMMAND TO USE**
 
 
 ### 🔗️Helpful Links
