@@ -1,4 +1,4 @@
-## ***What is Docker Compose ?***
+## **What is Docker Compose ?**
 - tool for defining and running multi-container docker application
 - use yaml files to configure application services ( **docker-compose.yml**)
 - can start all services with a single command: **docker compose up**
