@@ -1,4 +1,4 @@
-## ***DockerFile***
+## **DockerFile**
  - A text file with instructions to build image
  - Automation of Docker image for image creation
  
@@ -9,7 +9,7 @@
  
  ### **Steps**
   1. Create a file named Dockerfile ( 👇️It is in your Terminal)
-  	#### **Procedure**:
+  	 **Procedure**:
   	- ```mkdir DockerFiles``` : Create a folder
   	- ``` cd DockerFiles```   : Go inside the folder
   	- ```touch DockerFiles``` : Create a file name DockerFiles without extension
@@ -20,7 +20,7 @@
  	**Press I in your keyboard to go to INSERT Mode**
 	You can use a base image i.e ```ubuntu``` or a empty image i.e. ```scratch```
 	
-	 # **Getting base image ubuntu**
+	 ### **Getting base image ubuntu**
 	 ```FROM ubuntu``` | ```FROM scratch```      : for empty image 	
 	 
 	 ```MAINTAINER REBAN <Reyban86@gmail.com>``` : It is better to specify the maintainer of the DockerFiles
@@ -29,9 +29,10 @@
 	 
 	If you want to run some command line during container creation then 👇️:
 	
-	 ```CMD ["echo", "Hello World ...! frommy first docker image"]
+	 ```CMD ["echo", "Hello World ...! from my first docker image"]```
 
-       #### To get out from the **DockerFile** use below command 👇️: ```ESC```+ ```colon``` + ```w``` + ```q```+ ```!``` to exit : w is for writing
+       To get out from the **DockerFile** use below command 👇️:
+       ```ESC```+ ```colon``` + ```w``` + ```q```+ ```!``` to exit : w is for writing
        
        
    3. Build dockerfile to create image
