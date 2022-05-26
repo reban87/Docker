@@ -15,3 +15,30 @@
 ![Image](https://github.com/reban87/Docker/blob/main/Docker%20architecture.jpg)
 - The **daemon (server)** receives the commands from the Docker client through CLI or REST API's
 - Docker client and daemon can be present on the same host (machine) or different hosts 
+
+## Install Docker in Linux
+- ```sudo yum -y update``` 
+- ``` sudo yum install -y docker```
+- ```docker```
+-  ```docker --version```
+
+## Start Docker
+- ```start docker```
+- ```sudo service docker start```
+- ```sudo usermod-a-G docker "user"```
+- ```docker info```
+-  ```docker run hello-world``` : to run hello-world image
+-  ```docker images``` : to get list of images present locally
+-  ```docker ps``` : to get list of runnig containers
+-  ```docker ps-a``` : to get list of all containers
+
+## Stop Docker
+```sudo service docker stop```
+
+## Uninstall Docker
+``` sudo yum remove docker```
+
+## Helpful Links
+- [ **Installation Related**](https://docs.docker.com/get-docker/)
+- [**Installation Steps for amazon ec2**](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/create-container-image.html)
+
