@@ -38,11 +38,14 @@ to get out from it: ```esc```+ ```:```+```w```+```q```+```!```
 - ```cat docker-compose.yml```
 
 
-## 3. Check the validity of file by command ```docker-compose-config```
+## 3. Check the validity of file by command 
+```docker-compose-config```
 
-## 4. Run docker-compose.yml file by command ```docker-compose up -d``` : to create container in application and -d is for staring in detached mode 
+## 4. Run docker-compose.yml file by command 
+```docker-compose up -d``` : to create container in application and -d is for staring in detached mode 
 
 ## 5. ```docker ps```
+
 ## 6. ```docker-compose down``` : to stop the service 
 
 
