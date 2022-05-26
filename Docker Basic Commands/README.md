@@ -1,4 +1,5 @@
-### 🗒️**Docker Commands**
+## 🗒️**Docker Commands**
+It contains basic commands related to **images**, **containers** and **systems**.
 
 ## 👉️**Basic Commands**
 - ```docker version``` : To check client and server version
@@ -33,7 +34,7 @@
 - ```docker system prune --help```: gives flags to remove stopped container networks that are not being used: **SENSITIVE COMMAND TO USE**
 
 
-### 🔗️Helpful Links
+## 🔗️Helpful Links
 - [Docker Hub](https://hub.docker.com/)
 - [Documentation](https://docs.docker.com/engine/reference/commandline/ps/)
 
