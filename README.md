@@ -1,5 +1,6 @@
 # Docker
 ## What is DOCKER?
+
 - Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. 
 - Docker is an open source project that automates the deployment of applications inside software containers 
 ## How Docker works?
